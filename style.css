@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+html, body {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
@@ -32,11 +37,12 @@ a {
     color: rgb(209, 205, 199);
     text-decoration-color: initial;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
     color: -webkit-link;
-    cursor: pointer;
+    text-decoration-color: initial;
     text-decoration: underline;
 }
 
@@ -50,4 +56,27 @@ section {
     max-width: 1000px;
     align-items: flex-start;
     margin: auto;
+}
+
+.presentation h1 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: rgb(143, 189, 251);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.presentation p {
+    margin-bottom: 30px;
+}
+
+p, li {
+    color: rgb(207, 199, 255);
+    font-size: 1.1em;
+}
+
+em {
+    color: rgb(143, 189, 251);
 }
