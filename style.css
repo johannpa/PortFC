@@ -100,6 +100,11 @@ em {
     text-decoration: none;
 }
 
+.images {
+    background-color: rgb(24, 26, 27);
+    padding: 80px;
+}
+
 .images h2 {
     /* color: rgb(209, 205, 199); */
     color: #242424;
@@ -124,4 +129,9 @@ h2 {
     gap: 15px;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
