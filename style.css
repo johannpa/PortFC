@@ -135,3 +135,9 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+
+.contact h2 {
+    color: rgb(143, 189, 251);
+    text-align: center;
+    margin-bottom: 50px;
+}
