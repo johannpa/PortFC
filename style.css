@@ -117,3 +117,11 @@ h2 {
     font-weight: bold;
     unicode-bidi: isolate;
 }
+
+.images div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
