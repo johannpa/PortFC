@@ -13,7 +13,7 @@ body {
     background-color: #1f2039;
 }
 
-header, div, nav, section, form, footer {
+header, main, div, nav, section, form, footer {
     display: block;
 }
 
@@ -184,4 +184,21 @@ input[type='submit'] {
 
 .icone {
     margin-left: 30px;
+}
+
+/* A propos' page */
+
+.a-propos-main {
+    margin: auto;
+}
+
+.carre-contenu {
+    border-right-color: rgb(67, 61, 100);
+    border-bottom-color: rgb(67, 61, 100);
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
 }
