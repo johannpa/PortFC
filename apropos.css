@@ -1,0 +1,38 @@
+h1, h2 {
+    text-align: center;
+}
+
+.carre-contenu h2 {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 80px;
+    color: rgb(207, 199, 255);
+}
+
+.carre-contenu ul {
+    margin-top: 30px;
+}
+
+.carre-contenu + div {
+    text-align: center;
+}
+
+table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #545b5e;
+}
+
+td, th {
+    padding: 15px;
+    border: 1px solid #a5b4fc;
+    border-color: rgb(4, 25, 126);
+}
+
+td {
+    padding: 80px;
+}
