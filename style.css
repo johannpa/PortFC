@@ -214,3 +214,9 @@ input[type='submit'] {
     margin: auto;
     margin-bottom: 80px;
 }
+
+/* Portfolio's page */
+
+.photos {
+    background-color: rgb(24, 26, 27);
+}
