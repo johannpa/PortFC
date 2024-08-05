@@ -68,8 +68,20 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.presentation div {
+    padding-right: 80px;
+}
+
 .presentation p {
     margin-bottom: 30px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 p, li {
