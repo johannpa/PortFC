@@ -43,3 +43,47 @@
 
 /* responsive part */
 
+@media (max-width: 600px) {
+    .grid-paysages, .grid-portraits {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .grid-paysages img, .grid-portraits img {
+        height: auto;
+    }
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .grid-paysages {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .grid-portraits {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .grid-paysages img, .grid-portraits img {
+        height: auto;
+    }
+}
+
+/* Styles pour les grands écrans */
+@media (min-width: 1024px) {
+    .grid-paysages {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 300px 300px 300px;
+    }
+
+    .grid-portraits {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 300px 300px;
+    }
+
+    .grid-paysages img, .grid-portraits img {
+        height: 100%;
+    }
+}
