@@ -276,7 +276,7 @@ input[type='submit'] {
     }
 }
 
-/* Styles pour les grands écrans */
+/* Big screens */
 @media (min-width: 1024px) {
     .presentation {
         flex-direction: row;
