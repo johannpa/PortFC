@@ -43,6 +43,23 @@
 
 /* responsive part */
 
+@media (max-width: 480px) {
+    .grid-paysages, .grid-portraits {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+
+    .grid-paysages img, .grid-portraits img {
+        height: auto;
+    }
+
+    .lien-conteneur-photo .photo-hover {
+        font-size: 1em;
+    }
+}
+
+
 @media (max-width: 600px) {
     .grid-paysages, .grid-portraits {
         grid-template-columns: 1fr;
