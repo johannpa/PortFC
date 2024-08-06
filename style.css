@@ -223,6 +223,53 @@ input[type='submit'] {
 
 /* Responsive part */
 
+@media (max-width: 480px) {
+    header, footer {
+        padding: 10px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .presentation {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .presentation img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .images div {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nom-email {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input[type='submit'] {
+        width: 100%;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .contact form {
+        padding: 0 20px;
+    }
+}
+
 @media (max-width: 600px) {
     .presentation {
         flex-direction: column;
