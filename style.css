@@ -230,10 +230,17 @@ input[type='submit'] {
         text-align: center;
     }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     nav div {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        align-items: center;
     }
 
     .presentation {
@@ -267,6 +274,14 @@ input[type='submit'] {
 
     .contact form {
         padding: 0 20px;
+    }
+
+    .icone img {
+        max-width: 100px; /* Réduire la taille du logo pour s'adapter aux petits écrans */
+    }
+
+    nav a {
+        margin: 5px 0; /* Réduire la marge entre les liens de navigation */
     }
 }
 
