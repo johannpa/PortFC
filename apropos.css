@@ -39,6 +39,23 @@ td {
 
 /* Responsive part */
 
+@media (max-width: 480px) {
+    .carre-contenu {
+        width: 90%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    table {
+        font-size: 0.7em;
+    }
+
+    td, th {
+        padding: 8px;
+    }
+}
+
+
 @media (max-width: 600px) {
     .carre-contenu {
         width: 90%;
