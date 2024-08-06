@@ -239,8 +239,14 @@ input[type='submit'] {
     nav div {
         display: flex;
         flex-direction: column;
-        gap: 10px;
         align-items: center;
+        width: 100%;
+    }
+
+    nav a {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
     }
 
     .presentation {
@@ -278,10 +284,6 @@ input[type='submit'] {
 
     .icone img {
         max-width: 100px; /* Réduire la taille du logo pour s'adapter aux petits écrans */
-    }
-
-    nav a {
-        margin: 5px 0; /* Réduire la marge entre les liens de navigation */
     }
 }
 
