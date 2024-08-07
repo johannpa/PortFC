@@ -224,12 +224,18 @@ input[type='submit'] {
 /* Responsive part */
 
 @media (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     header {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 10px 0;
+        width: 100%;
     }
 
     nav {
@@ -296,6 +302,8 @@ input[type='submit'] {
     nav div a {
         display: inline-block;
         margin: 0 10px;
+    }
+}
 
 @media (max-width: 600px) {
     .presentation {
@@ -349,8 +357,6 @@ input[type='submit'] {
         width: 50%;
     }
 }
-
-
 
 /* Big screens */
 @media (min-width: 1024px) {
