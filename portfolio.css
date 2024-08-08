@@ -15,6 +15,10 @@
     object-fit: cover;
 }
 
+.photos h2 {
+    color: #242424;
+}
+
 .photo-hover {
     position: absolute;
     top: 0;
