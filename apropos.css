@@ -27,6 +27,9 @@ table {
     border-color: #545b5e;
 }
 
+td {
+    padding: 80px !important;
+}
 
 td, th {
     padding: 15px;
@@ -34,9 +37,6 @@ td, th {
     border-color: rgb(4, 25, 126);
 }
 
-td {
-    padding: 80px;
-}
 
 /* Responsive part */
 
